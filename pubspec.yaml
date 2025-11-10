@@ -1,0 +1,40 @@
+name: zoobaurumap
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.2.1
+  audioplayers: ^5.2.1
+  cupertino_icons: ^1.0.8
+  vector_math: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/animals_images/
+    - assets/sounds/
+  fonts:
+    - family: Bangers
+      fonts:
+        - asset: assets/fonts/Bangers-Regular.ttf
+    - family: Chewy
+      fonts:
+        - asset: assets/fonts/Chewy-Regular.ttf
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/icon.png"
